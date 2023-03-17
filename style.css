@@ -1,0 +1,44 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.containerr{
+	display: grid;
+	grid-template-rows: repeat(3, 140px);
+	grid-template-columns: repeat(3, 140px);
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+.packer{
+	margin: 0px;
+	padding: 0px;
+}
+.XO{
+	text-align: center;
+	font-size: 40px;
+}
+#resBar{
+	padding: 0px;
+	text-align: center;
+}
+#res{
+	font-size: 40px;
+	color: red;
+
+}
+.topic{
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline grey;
+}
+
+.btn{
+	width: 10vw;
+	height: 5vh;
+	background-color: #000000;
+	border-radius: 10px;
+	color: white;
+	font-weight: 700;
+}
